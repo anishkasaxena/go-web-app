@@ -1,0 +1,9 @@
+deployment:
+  name: go-web-app-new
+  replica: 2
+  image: anishka012/go-web-app
+  container_ports: 8080
+  
+
+service:
+  name: go-web-app-new
